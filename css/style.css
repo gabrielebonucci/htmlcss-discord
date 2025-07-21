@@ -7,11 +7,11 @@
 }
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container{
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -21,12 +21,12 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
 
-.border{
+/* .border {
     border: 2px dashed black;
-}
+} */
 
 header{
-    background-color: #ADD8E7;
+    background-color: #3160E0;
     justify-content: center;
     text-align: center;
     padding: 15px 0;
@@ -46,9 +46,10 @@ header{
 }
 
 .navbar-logo, .navbar-login, .navbar-links{
-    background-color: #DAA51E;
     padding: 15px;
+
 }
+
 .navbar-logo, .navbar-login {
     flex-basis: 20%;
     display: flex;
@@ -65,12 +66,12 @@ header{
 .navbar-links ul{
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .navbar-links a, .navbar-logo a, .navbar-login a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -180,4 +181,15 @@ justify-content: space-around;
     padding: 5px 10px;
     background-color:#F08180;
     border: 1px dashed black;
+}
+
+/* Bottoni */
+
+button{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
 }
