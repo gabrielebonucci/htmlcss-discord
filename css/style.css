@@ -176,8 +176,8 @@ font-size: 3rem;
 }
 
 .full h3{
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-bottom: 32px;
 
 }
 
@@ -185,7 +185,7 @@ font-size: 3rem;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 3rem;
+    padding-top: 48px;
 }
 
 
@@ -195,34 +195,33 @@ font-size: 3rem;
 footer{
     background-color: #23272A;
     padding: 50px 0;
-    color: black;
+    color: white;
 }
 
 .footer-top{
     min-height: 500px;
-    border-bottom: 1px solid purple;
     padding-bottom: 30px;
     display: flex;
 }
 
 .footer-left{
     flex-basis: 30%;
-    background-color: #F08180;
+    /*  background-color: #F08180;*/
 }
 
 .footer-right{
     flex-basis: 70%;
-    background-color: #20B3AA;
+    /*  background-color: #20B3AA;*/
 }
 .footer-nav{
 height: 100%;
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 
 }
 .nav-col{
     flex-basis: 25%;
-    border: 1px dashed white;
+    padding: 0 15px;
 }
 
 .footer-bottom{
