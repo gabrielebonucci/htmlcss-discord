@@ -43,6 +43,13 @@ header{
     text-align: center;
 }
 
+h2{
+    font-size: 45px;
+}
+
+p{
+    margin-top: 15px;
+}
 /* Navbar */
 
 .navbar{
@@ -132,6 +139,8 @@ section{
     padding: 100px 0;
 }
 
+
+
 .bg-gray{
     background-color: #D3D3D3;
 }
@@ -141,15 +150,18 @@ section{
 }
 
 .large{
-    flex-basis: 60%; 
-    background-color: #1E90FF;
+    flex-basis: 70%; 
+   /*  background-color: #1E90FF; */
     min-height: 400px;
 }
 
 .small{
-    flex-basis: 40%;
-    background-color: #FFC0CA;
-    min-height: 400px;
+    flex-basis: 30%;
+    /*  background-color: #FFC0CA; */
+    min-height: 375px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 
 }
 
