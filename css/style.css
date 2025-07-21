@@ -258,6 +258,10 @@ font-size: 48px;
     font-weight: bold;
 }
 
+.nav-col a{
+    color: white;
+    text-decoration: none;
+}
 
 
 footer{
